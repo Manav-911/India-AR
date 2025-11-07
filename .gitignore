@@ -1,0 +1,84 @@
+# =====================================================
+#  Unity + Vuforia .gitignore (Recommended by GitHub)
+#  For: India AR App by Manav Parmar
+# =====================================================
+
+# ---- Unity generated folders ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+.vs/
+sysinfo.txt
+
+# ---- IDE specific files ----
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.vsconfig
+.vscode/
+
+# ---- Operating System files ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Build artifacts ----
+*.apk
+*.aab
+*.exe
+*.app
+*.unitypackage
+*.zip
+
+# ---- Vuforia specific ----
+# Vuforia auto-generated database and cache files
+Vuforia/
+VuforiaDatabases/
+VuforiaLicense.cs
+*.dat
+*.xml
+
+# ---- Logs / Crash dumps ----
+*.log
+*.stackdump
+*.crash
+
+# ---- Backups ----
+*.bak
+*.old
+*.orig
+
+# ---- Other large/unnecessary files ----
+*.mp4
+*.avi
+*.mov
+*.wav
+*.psd
+*.blend1
+
+# =====================================================
+# Keep the following important project folders:
+# ✅ Assets/
+# ✅ Packages/
+# ✅ ProjectSettings/
+# ✅ QCAR/
+# =====================================================
+# End of .gitignore

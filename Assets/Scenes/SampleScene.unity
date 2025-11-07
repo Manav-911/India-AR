@@ -1,0 +1,3504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &23323760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7637018102831885805, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &23323773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23323760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "Maharashtra:\n\nCapital: Mumbai\nLanguage: Marathi\nNotable: Home to
+    Mumbai, India\u2019s financial capital and Bollywood hub. Ajanta and Ellora Caves,
+    the Gateway of India, and Shirdi (a significant pilgrimage site) are some notable
+    places"
+--- !u!64 &23323777
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23323760}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1918133554217620181, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!1001 &41920351
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1796361427}
+    m_Modifications:
+    - target: {fileID: -8776298244144332565, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Telengana
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8652492886270831288, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Assam
+      objectReference: {fileID: 0}
+    - target: {fileID: -8583471834197507430, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Odisha
+      objectReference: {fileID: 0}
+    - target: {fileID: -8118639870046308900, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Karnataka
+      objectReference: {fileID: 0}
+    - target: {fileID: -7637018102831885805, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Mahrashtra
+      objectReference: {fileID: 0}
+    - target: {fileID: -7290071129151347443, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tamil Nadu
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071066
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000008688844
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710707
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000003345999
+      objectReference: {fileID: 0}
+    - target: {fileID: -6547200371854900476, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -6414702625020430653, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Meghalaya
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000035762784
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000000850992
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00000003777962
+      objectReference: {fileID: 0}
+    - target: {fileID: -6396145778858508005, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -6039475602098714902, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Andabar and Nicobar island
+      objectReference: {fileID: 0}
+    - target: {fileID: -5496660920902464039, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Gujarat
+      objectReference: {fileID: 0}
+    - target: {fileID: -4504647434113498656, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Karnataka
+      objectReference: {fileID: 0}
+    - target: {fileID: -3949643195187315070, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Telengana
+      objectReference: {fileID: 0}
+    - target: {fileID: -3567613468065494201, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Uttar Pradesh
+      objectReference: {fileID: 0}
+    - target: {fileID: -3092189912629819438, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Himachal Pradesh
+      objectReference: {fileID: 0}
+    - target: {fileID: -2696586517082857549, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Punjab Haryana
+      objectReference: {fileID: 0}
+    - target: {fileID: -2444805319632270875, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Jammu Kashmir
+      objectReference: {fileID: 0}
+    - target: {fileID: -1920688617531850739, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Karnataka
+      objectReference: {fileID: 0}
+    - target: {fileID: -1594228085342433398, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Kerala
+      objectReference: {fileID: 0}
+    - target: {fileID: -1471761094189155840, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Bihar
+      objectReference: {fileID: 0}
+    - target: {fileID: -1157145390356779589, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: 'Chhattisgarh '
+      objectReference: {fileID: 0}
+    - target: {fileID: -1082535299065539904, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Nagaland
+      objectReference: {fileID: 0}
+    - target: {fileID: 914174971096720616, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tripura
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: IndiaMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564412014768814620, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Jharkhand
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966601988655708042, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Uttar Pradesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.295706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0049565434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.947323
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.43045926
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.56098557
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5609857
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4304593
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 105
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489159159464621496, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2809235526571931054, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: West Bangal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316789052034666469, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Madhya Pradesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906275592154121286, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Andhra Pradesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143762662782255488, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Uttarakhand
+      objectReference: {fileID: 0}
+    - target: {fileID: 5503451378118594756, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Manipur Mizoram
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713385241665123682, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Uttar Pradesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716045591017304643, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: West Bangal
+      objectReference: {fileID: 0}
+    - target: {fileID: 7513808496734886639, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: West Bangal
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793819159428195939, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Rajashthan
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969168468132547140, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Karnataka
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985625668030412335, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Arunachal Pradesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065294074597589602, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Sikkim
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 5410056642468032975, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+    - {fileID: -7496243854580267467, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+    - {fileID: 2550463727306718371, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8583471834197507430, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1799508449}
+    - targetCorrespondingSourceObject: {fileID: -8583471834197507430, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1799508453}
+    - targetCorrespondingSourceObject: {fileID: 1564412014768814620, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1622617576}
+    - targetCorrespondingSourceObject: {fileID: 1564412014768814620, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1622617580}
+    - targetCorrespondingSourceObject: {fileID: -1157145390356779589, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1377265297}
+    - targetCorrespondingSourceObject: {fileID: -1157145390356779589, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1377265301}
+    - targetCorrespondingSourceObject: {fileID: 5713385241665123682, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2125451295}
+    - targetCorrespondingSourceObject: {fileID: 5713385241665123682, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2125451299}
+    - targetCorrespondingSourceObject: {fileID: -3567613468065494201, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1472956069}
+    - targetCorrespondingSourceObject: {fileID: -3567613468065494201, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1472956073}
+    - targetCorrespondingSourceObject: {fileID: 3316789052034666469, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2047411052}
+    - targetCorrespondingSourceObject: {fileID: 3316789052034666469, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2047411056}
+    - targetCorrespondingSourceObject: {fileID: -1471761094189155840, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1929108978}
+    - targetCorrespondingSourceObject: {fileID: -1471761094189155840, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1929108982}
+    - targetCorrespondingSourceObject: {fileID: 4143762662782255488, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 357007702}
+    - targetCorrespondingSourceObject: {fileID: 4143762662782255488, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 357007706}
+    - targetCorrespondingSourceObject: {fileID: -3092189912629819438, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 226762113}
+    - targetCorrespondingSourceObject: {fileID: -3092189912629819438, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 226762117}
+    - targetCorrespondingSourceObject: {fileID: -2444805319632270875, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1105801847}
+    - targetCorrespondingSourceObject: {fileID: -2444805319632270875, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1105801851}
+    - targetCorrespondingSourceObject: {fileID: -2696586517082857549, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1605832085}
+    - targetCorrespondingSourceObject: {fileID: -2696586517082857549, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1605832089}
+    - targetCorrespondingSourceObject: {fileID: 7793819159428195939, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1420402253}
+    - targetCorrespondingSourceObject: {fileID: 7793819159428195939, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1420402257}
+    - targetCorrespondingSourceObject: {fileID: -5496660920902464039, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1305493033}
+    - targetCorrespondingSourceObject: {fileID: -5496660920902464039, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1305493037}
+    - targetCorrespondingSourceObject: {fileID: -7637018102831885805, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23323773}
+    - targetCorrespondingSourceObject: {fileID: -7637018102831885805, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 23323777}
+    - targetCorrespondingSourceObject: {fileID: 3906275592154121286, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 330503381}
+    - targetCorrespondingSourceObject: {fileID: 3906275592154121286, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 330503385}
+    - targetCorrespondingSourceObject: {fileID: -8776298244144332565, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1550360851}
+    - targetCorrespondingSourceObject: {fileID: -8776298244144332565, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1550360855}
+    - targetCorrespondingSourceObject: {fileID: -4504647434113498656, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1179731424}
+    - targetCorrespondingSourceObject: {fileID: -4504647434113498656, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1179731428}
+    - targetCorrespondingSourceObject: {fileID: -3949643195187315070, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 444668027}
+    - targetCorrespondingSourceObject: {fileID: -3949643195187315070, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 444668031}
+    - targetCorrespondingSourceObject: {fileID: 914174971096720616, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1409508093}
+    - targetCorrespondingSourceObject: {fileID: 914174971096720616, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1409508097}
+    - targetCorrespondingSourceObject: {fileID: 5503451378118594756, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1910341594}
+    - targetCorrespondingSourceObject: {fileID: 5503451378118594756, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1910341598}
+    - targetCorrespondingSourceObject: {fileID: -1082535299065539904, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 274303677}
+    - targetCorrespondingSourceObject: {fileID: -1082535299065539904, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 274303681}
+    - targetCorrespondingSourceObject: {fileID: 7985625668030412335, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 53066918}
+    - targetCorrespondingSourceObject: {fileID: 7985625668030412335, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 53066922}
+    - targetCorrespondingSourceObject: {fileID: -8652492886270831288, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1094490352}
+    - targetCorrespondingSourceObject: {fileID: -8652492886270831288, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1094490356}
+    - targetCorrespondingSourceObject: {fileID: 5716045591017304643, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1886528250}
+    - targetCorrespondingSourceObject: {fileID: 5716045591017304643, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1886528254}
+    - targetCorrespondingSourceObject: {fileID: 9065294074597589602, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1124732207}
+    - targetCorrespondingSourceObject: {fileID: 9065294074597589602, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1124732211}
+    - targetCorrespondingSourceObject: {fileID: 7513808496734886639, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 487324550}
+    - targetCorrespondingSourceObject: {fileID: 7513808496734886639, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 487324554}
+    - targetCorrespondingSourceObject: {fileID: 2809235526571931054, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 476427107}
+    - targetCorrespondingSourceObject: {fileID: 2809235526571931054, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 476427111}
+    - targetCorrespondingSourceObject: {fileID: -1920688617531850739, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1546513620}
+    - targetCorrespondingSourceObject: {fileID: -1920688617531850739, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1546513624}
+    - targetCorrespondingSourceObject: {fileID: 7969168468132547140, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 730769974}
+    - targetCorrespondingSourceObject: {fileID: 7969168468132547140, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 730769978}
+    - targetCorrespondingSourceObject: {fileID: -8118639870046308900, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1636572265}
+    - targetCorrespondingSourceObject: {fileID: -8118639870046308900, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1636572269}
+    - targetCorrespondingSourceObject: {fileID: -7290071129151347443, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 871263450}
+    - targetCorrespondingSourceObject: {fileID: -7290071129151347443, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 871263454}
+    - targetCorrespondingSourceObject: {fileID: -1594228085342433398, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 845719448}
+    - targetCorrespondingSourceObject: {fileID: -1594228085342433398, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 845719452}
+    - targetCorrespondingSourceObject: {fileID: -6414702625020430653, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 207147544}
+    - targetCorrespondingSourceObject: {fileID: -6414702625020430653, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 207147548}
+    - targetCorrespondingSourceObject: {fileID: -6039475602098714902, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1375737372}
+    - targetCorrespondingSourceObject: {fileID: -6039475602098714902, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1375737376}
+    - targetCorrespondingSourceObject: {fileID: 1966601988655708042, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773190233}
+    - targetCorrespondingSourceObject: {fileID: 1966601988655708042, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773190237}
+    - targetCorrespondingSourceObject: {fileID: -3063428120372879434, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1964602101}
+  m_SourcePrefab: {fileID: 100100000, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!4 &41920352 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &53066914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7985625668030412335, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &53066918
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53066914}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -361435805105104513, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &53066922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53066914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Arunachal Pradesh:
+
+
+    Capital: Itanagar
+
+    Language: English,
+    Various tribal languages
+
+    Notable: Famous for Tawang Monastery and its pristine
+    landscapes.'
+--- !u!1 &153518568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153518571}
+  - component: {fileID: 153518570}
+  - component: {fileID: 153518569}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &153518569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153518568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &153518570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153518568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &153518571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153518568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &207147540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6414702625020430653, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &207147544
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207147540}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7572822627713955594, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &207147548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207147540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "Meghalaya:\n\nCapital: Shillong\nLanguage: Khasi, English\nNotable:
+    Known for its lush landscapes and the living root bridges in Cherrapunji and
+    Mawlynnong, Asia\u2019s cleanest village.\n"
+--- !u!1 &226762109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3092189912629819438, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &226762113
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226762109}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5787051826044892044, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &226762117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226762109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Himachal Pradesh:
+
+
+    Capital: Shimla
+
+    Language: Hindi, Pahari
+
+    Notable:
+    A popular state for hill stations, it boasts beautiful destinations like Manali,
+    Shimla, and Dharamshala. Himachal is famous for its trekking, monasteries, and
+    stunning landscapes in the Himalayas.
+
+'
+--- !u!1 &274303673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1082535299065539904, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &274303677
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274303673}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4074771182479976246, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &274303681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274303673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "Nagaland:\n\nCapital: Kohima\nLanguage: English, Naga dialects\nNotable:
+    Known for the vibrant Hornbill Festival, showcasing the rich Naga culture, and
+    the state\u2019s scenic beauty.\n"
+--- !u!1 &323131599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 323131600}
+  - component: {fileID: 323131602}
+  - component: {fileID: 323131601}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &323131600
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323131599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1455963320}
+  m_Father: {fileID: 1971178296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &323131601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323131599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.3529412}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &323131602
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323131599}
+  m_CullTransparentMesh: 1
+--- !u!1 &330503377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3906275592154121286, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &330503381
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330503377}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4489585187976841524, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &330503385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330503377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "Andhra Pradesh:\n\nCapital: Amaravati (proposed), Hyderabad (shared)\nLanguage:
+    Telugu\nNotable: Famous for Tirupati Temple, one of the world\u2019s most-visited
+    pilgrimage sites, and Visakhapatnam\u2019s beaches.\n"
+--- !u!1 &345903535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 345903541}
+  - component: {fileID: 345903540}
+  - component: {fileID: 345903539}
+  - component: {fileID: 345903538}
+  - component: {fileID: 345903537}
+  - component: {fileID: 345903536}
+  m_Layer: 0
+  m_Name: ARCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &345903536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345903535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!114 &345903537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345903535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &345903538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345903535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1826476478, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mWorldCenterMode: 2
+  mWorldCenter: {fileID: 0}
+--- !u!81 &345903539
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345903535}
+  m_Enabled: 1
+--- !u!20 &345903540
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345903535}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.05
+  far clip plane: 2000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &345903541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345903535}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000008557956, y: -0.9914449, z: 0.13052605, w: 0.00000065004184}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: -180, z: 0}
+--- !u!1 &357007698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4143762662782255488, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &357007702
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357007698}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5270879433523947816, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &357007706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357007698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Uttarakhand:
+
+
+    Capital: Dehradun
+
+    Language: Hindi
+
+    Notable:
+    Known for its spiritual tourism, with destinations like Haridwar, Rishikesh (yoga
+    capital of the world), Kedarnath, and Badrinath being important pilgrimage spots.
+
+'
+--- !u!1 &410087039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410087041}
+  - component: {fileID: 410087040}
+  - component: {fileID: 410087042}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &410087040
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 5000
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &410087041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &410087042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+--- !u!1 &444668023 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3949643195187315070, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &444668027
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444668023}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2217651919750067184, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &444668031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444668023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Telangana:
+
+
+    Capital: Hyderabad
+
+    Language: Telugu
+
+    Notable:
+    Hyderabad is known for the Charminar, Golconda Fort, and Hyderabadi biryani.
+    Telangana is also rich in historical sites.
+
+'
+--- !u!1 &476427103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2809235526571931054, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &476427107
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476427103}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3640178721928197727, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &476427111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476427103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "West Bengal:\n\nCapital: Kolkata\nLanguage: Bengali\nNotable: Known
+    for its cultural heritage, literature, and arts. Kolkata was the British capital
+    of India and has landmarks like the Victoria Memorial. The Sundarbans, the world\u2019s
+    largest mangrove forest, is also located here.\n"
+--- !u!1 &487324546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7513808496734886639, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &487324550
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487324546}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6810632953949042882, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &487324554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487324546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "West Bengal:\n\nCapital: Kolkata\nLanguage: Bengali\nNotable: Known
+    for its cultural heritage, literature, and arts. Kolkata was the British capital
+    of India and has landmarks like the Victoria Memorial. The Sundarbans, the world\u2019s
+    largest mangrove forest, is also located here.\n"
+--- !u!1 &730769970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7969168468132547140, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &730769974
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730769970}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3631024328403997931, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &730769978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730769970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Karnataka:
+
+
+    Capital: Bengaluru
+
+    Language: Kannada
+
+    Notable:
+    Known for its IT industry in Bengaluru, Karnataka also boasts rich historical
+    sites like Hampi (a UNESCO World Heritage Site), Mysore Palace, and Coorg (a
+    famous hill station).
+
+'
+--- !u!1 &773190229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1966601988655708042, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &773190233
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773190229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6874560300427443733, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &773190237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773190229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Uttar Pradesh
+
+    Capital: Lucknow
+
+    Language: Hindi, Urdu, Awadhi,
+    Bhojpuri
+
+    Overview:
+
+    Uttar Pradesh (UP) is the most populous state in
+    India and is known for its rich cultural heritage, historical significance, and
+    diverse landscapes. It plays a pivotal role in Indian politics and culture.
+
+
+'
+--- !u!1 &845719444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1594228085342433398, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &845719448
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845719444}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2020662316444379529, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &845719452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845719444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "Kerala:\n\nCapital: Thiruvananthapuram\nLanguage: Malayalam\nNotable:
+    Known as \"God\u2019s Own Country\", Kerala is famous for its backwaters, serene
+    beaches, and Ayurvedic wellness. Popular places include Munnar, Alleppey, and
+    Kochi.\n"
+--- !u!1 &871263446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7290071129151347443, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &871263450
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871263446}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 222236185553012547, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &871263454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871263446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Tamil Nadu:
+
+
+    Capital: Chennai
+
+    Language: Tamil
+
+    Notable:
+    Known for Dravidian architecture, ancient temples like Meenakshi Temple in Madurai,
+    and historical monuments like Mahabalipuram.
+
+'
+--- !u!1 &1094490348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8652492886270831288, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1094490352
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094490348}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5347568476640226213, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1094490356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094490348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Assam:
+
+
+    Capital: Dispur
+
+    Language: Assamese
+
+    Notable:
+    Famous for Kaziranga National Park (home to one-horned rhinos) and its tea plantations.
+    The state celebrates the vibrant Bihu festival.
+
+'
+--- !u!1 &1105801843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2444805319632270875, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1105801847
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105801843}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2693012856814855960, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1105801851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105801843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Jammu & Kashmir:
+
+
+    Capital: Srinagar (summer), Jammu (winter)
+
+    Language:
+    Kashmiri, Urdu
+
+    Notable: Known for its stunning natural beauty, Kashmir is
+    often referred to as "Paradise on Earth." Famous places include Dal Lake, Gulmarg
+    (skiing destination), and Vaishno Devi Temple (important Hindu pilgrimage site).
+
+'
+--- !u!1 &1124732203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9065294074597589602, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1124732207
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124732203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1893610220972061311, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1124732211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124732203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Sikkim:
+
+
+    Capital: Gangtok
+
+    Language: Nepali, English
+
+    Notable:
+    Known for its natural beauty, Kanchenjunga (third highest peak in the world),
+    and Rumtek Monastery.
+
+
+
+
+
+
+'
+--- !u!1 &1179731420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4504647434113498656, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1179731424
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179731420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4632380259939168935, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1179731428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179731420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Karnataka:
+
+
+    Capital: Bengaluru
+
+    Language: Kannada
+
+    Notable:
+    Known for its IT industry in Bengaluru, Karnataka also boasts rich historical
+    sites like Hampi (a UNESCO World Heritage Site), Mysore Palace, and Coorg (a
+    famous hill station).
+
+'
+--- !u!1 &1305493029 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5496660920902464039, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1305493033
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305493029}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3185973594663407288, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1305493037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305493029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Gujarat:
+
+
+    Capital: Gandhinagar
+
+    Language: Gujarati
+
+    Notable:
+    Known for the Rann of Kutch, a salt desert, and the vibrant festival of Navratri.
+    Ahmedabad is famous for its historical sites and the Sabarmati Ashram (home of
+    Mahatma Gandhi).
+
+'
+--- !u!1 &1375737368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6039475602098714902, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1375737372
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375737368}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2791785452768799036, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1375737376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375737368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Andaman and Nicobar Islands
+
+    Capital: Port Blair
+
+    Languages:
+    Hindi, English, Bengali, Tamil
+
+    Overview:
+
+    The Andaman and Nicobar Islands
+    are a group of over 570 islands located in the Bay of Bengal, known for their
+    stunning beaches, lush tropical forests, and rich marine biodiversity. This union
+    territory of India is famous for its pristine natural beauty and indigenous cultures.
+
+
+'
+--- !u!1 &1377265293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1157145390356779589, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1377265297
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377265293}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5582133695706433325, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1377265301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377265293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Chhattisgarh:
+
+
+    Capital: Raipur
+
+    Language: Hindi, Chhattisgarhi
+
+    Notable:
+    Known for its dense forests, Chitrakoot Falls, and tribal culture. It''s a major
+    steel production state.
+
+'
+--- !u!1 &1409508089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 914174971096720616, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1409508093
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409508089}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8195396308947311277, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1409508097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409508089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Tripura
+
+    Capital: Agartala
+
+    Language: Bengali, Kokborok, Hindi,
+    Manipuri
+
+    Overview:
+
+    Tripura is a small but beautiful state located in
+    the northeastern part of India, bordered by Bangladesh to the north, west, and
+    south. Known for its lush green hills, rich cultural heritage, and diverse ethnic
+    communities, Tripura is a hidden gem that offers a unique blend of natural beauty
+    and vibrant traditions.
+
+
+'
+--- !u!1 &1420402249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7793819159428195939, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1420402253
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420402249}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3699778361200695240, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1420402257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420402249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Rajasthan:
+
+
+    Capital: Jaipur
+
+    Language: Hindi, Rajasthani
+
+    Notable:
+    Known as the "Land of Kings", Rajasthan is famous for its palaces, forts (like
+    Amber Fort and Mehrangarh), and the Thar Desert. Jaipur, Udaipur, and Jodhpur
+    are must-visit cities for their royal heritage.
+
+'
+--- !u!1 &1455963319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1455963320}
+  - component: {fileID: 1455963322}
+  - component: {fileID: 1455963321}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1455963320
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455963319}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 323131600}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 500, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1455963321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455963319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1455963322
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455963319}
+  m_CullTransparentMesh: 1
+--- !u!1 &1472956065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3567613468065494201, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1472956069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472956065}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7502377544057204969, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1472956073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472956065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Uttar Pradesh
+
+    Capital: Lucknow
+
+    Language: Hindi, Urdu, Awadhi,
+    Bhojpuri
+
+    Overview:
+
+    Uttar Pradesh (UP) is the most populous state in
+    India and is known for its rich cultural heritage, historical significance, and
+    diverse landscapes. It plays a pivotal role in Indian politics and culture.
+
+
+'
+--- !u!1 &1546513616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1920688617531850739, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1546513620
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546513616}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6521103849724139267, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1546513624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546513616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Karnataka:
+
+
+    Capital: Bengaluru
+
+    Language: Kannada
+
+    Notable:
+    Known for its IT industry in Bengaluru, Karnataka also boasts rich historical
+    sites like Hampi (a UNESCO World Heritage Site), Mysore Palace, and Coorg (a
+    famous hill station).
+
+'
+--- !u!1 &1550360847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8776298244144332565, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1550360851
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550360847}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4678199393330111903, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1550360855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550360847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Telangana:
+
+
+    Capital: Hyderabad
+
+    Language: Telugu
+
+    Notable:
+    Hyderabad is known for the Charminar, Golconda Fort, and Hyderabadi biryani.
+    Telangana is also rich in historical sites.
+
+'
+--- !u!1 &1605832081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2696586517082857549, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1605832085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605832081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6250710606382680247, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1605832089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605832081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Punjab:
+
+
+    Capital: Chandigarh
+
+    Language: Punjabi
+
+    Notable:
+    Known for its rich culture and history, the state is famous for the Golden Temple
+    in Amritsar, vibrant festivals like Baisakhi, and Wagah Border Ceremony between
+    India and Pakistan.
+
+    Haryana:
+
+
+    Capital: Chandigarh (shared with Punjab)
+
+    Language:
+    Hindi
+
+    Notable: An important agricultural state, it is also a major industrial
+    and IT hub, especially in Gurugram. The Kurukshetra battlefield from the Mahabharata
+    is located here.
+
+'
+--- !u!1 &1622617572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1564412014768814620, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1622617576
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622617572}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7969978266939365281, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1622617580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622617572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Jharkhand:
+
+
+    Capital: Ranchi
+
+    Language: Hindi
+
+    Notable:
+    Rich in mineral resources, it has scenic landscapes with waterfalls like Dassam
+    Falls and national parks like Betla National Park.
+
+'
+--- !u!1 &1636572261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8118639870046308900, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1636572265
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636572261}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2576627790722502906, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1636572269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636572261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Karnataka:
+
+
+    Capital: Bengaluru
+
+    Language: Kannada
+
+    Notable:
+    Known for its IT industry in Bengaluru, Karnataka also boasts rich historical
+    sites like Hampi (a UNESCO World Heritage Site), Mysore Palace, and Coorg (a
+    famous hill station).
+
+'
+--- !u!1 &1796361423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1796361427}
+  - component: {fileID: 1796361426}
+  - component: {fileID: 1796361425}
+  - component: {fileID: 1796361424}
+  m_Layer: 0
+  m_Name: ImageTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1796361424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796361423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1796361426}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Scanner
+  mDatasetName: Vuforia/IndiaMapAR.xml
+  mCastedBehaviour: {fileID: 1796361426}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1796361425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796361423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 1
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1796361426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796361423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: Scanner
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/IndiaMapAR.xml
+  mAspectRatio: 0.749035
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 0.749035
+  mRuntimeTexture: {fileID: 0}
+  mMotionHint: 1
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 0
+  mPreview: {fileID: 1796361424}
+--- !u!4 &1796361427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796361423}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 41920352}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1799508445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8583471834197507430, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1799508449
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799508445}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1562275218897716241, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1799508453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799508445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Odisha:
+
+
+    Capital: Bhubaneswar
+
+    Language: Odia
+
+    Notable:
+    Famous for the ancient Konark Sun Temple and the annual Jagannath Rath Yatra
+    in Puri. The state also has serene beaches and national parks like Simlipal.
+
+'
+--- !u!1 &1886528246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5716045591017304643, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1886528250
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886528246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5092484024584187340, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1886528254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886528246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'West Bengal
+
+    Capital: Kolkata
+
+    Language: Bengali, Hindi, Urdu,
+    Nepali, Santali
+
+    Overview:
+
+    West Bengal is a state located in the eastern
+    part of India, known for its rich cultural heritage, vibrant traditions, and
+    historical significance. With a diverse population and a mix of urban and rural
+    landscapes, West Bengal is famous for its art, literature, and cuisine'
+--- !u!1 &1910341590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5503451378118594756, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1910341594
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910341590}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 914051726605392165, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1910341598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910341590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: "Manipur:\n\nCapital: Imphal\nLanguage: Meitei (Manipuri)\nNotable:
+    Known for Loktak Lake, India\u2019s largest freshwater lake, and the floating
+    phumdis (islands).\n\nMizoram:\n\nCapital: Aizawl\nLanguage: Mizo\nNotable: Known
+    for its scenic hills and Phawngpui National Park.\n"
+--- !u!1 &1929108974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1471761094189155840, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1929108978
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929108974}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7821917557700976381, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &1929108982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929108974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Bihar:
+
+
+    Capital: Patna
+
+    Language: Hindi, Bhojpuri
+
+    Notable:
+    Home to the ancient city of Nalanda, and the Mahabodhi Temple in Bodh Gaya, where
+    Gautama Buddha is said to have attained enlightenment'
+--- !u!1 &1964602097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3063428120372879434, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1964602101
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964602097}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2175267859155393700, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!1 &1971178292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1971178296}
+  - component: {fileID: 1971178295}
+  - component: {fileID: 1971178294}
+  - component: {fileID: 1971178293}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1971178293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971178292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1971178294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971178292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1971178295
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971178292}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1971178296
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971178292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 323131600}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &2047411048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3316789052034666469, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2047411052
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047411048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -888404026515264504, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &2047411056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047411048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Madhya Pradesh:
+
+
+    Capital: Bhopal
+
+    Language: Hindi
+
+    Notable:
+    Known as the "Heart of India", it boasts Khajuraho temples (UNESCO World Heritage),
+    Sanchi Stupa, and Kanha National Park (home to Bengal tigers).
+
+'
+--- !u!1 &2125451291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5713385241665123682, guid: 85def1f49186efe4b9126f7cbe19e2f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 41920351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2125451295
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125451291}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2628482395200241503, guid: 85def1f49186efe4b9126f7cbe19e2f2, type: 3}
+--- !u!114 &2125451299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125451291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed73d3d577f0584788c2d2193b714c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  infoPanel: {fileID: 323131599}
+  infoText: {fileID: 1455963321}
+  closeButton: {fileID: 0}
+  stateInfo: 'Uttar Pradesh
+
+    Capital: Lucknow
+
+    Language: Hindi, Urdu, Awadhi,
+    Bhojpuri
+
+    Overview:
+
+    Uttar Pradesh (UP) is the most populous state in
+    India and is known for its rich cultural heritage, historical significance, and
+    diverse landscapes. It plays a pivotal role in Indian politics and culture.
+
+
+'
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 410087041}
+  - {fileID: 1796361427}
+  - {fileID: 1971178296}
+  - {fileID: 345903541}
+  - {fileID: 153518571}
