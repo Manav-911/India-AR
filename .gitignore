@@ -81,4 +81,9 @@ VuforiaLicense.cs
 # ✅ ProjectSettings/
 # ✅ QCAR/
 # =====================================================
+
+# Ignore Vuforia package tarballs
+*.tgz
+Packages/com.ptc.vuforia.engine-*.tgz
+
 # End of .gitignore
